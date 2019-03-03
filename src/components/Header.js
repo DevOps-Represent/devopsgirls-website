@@ -28,7 +28,7 @@ const Navigation = styled.div`
 
   & > * {
     margin-left: 1rem;
-    color: ${COLOR.WHITE};
+    color: ${COLOR.BLACK};
     cursor: pointer;
 
     &:focus,
