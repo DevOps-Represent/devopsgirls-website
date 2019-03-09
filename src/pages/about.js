@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import theresa from '../assets/graphics/organisers/theresa.jpg';
