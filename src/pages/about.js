@@ -18,7 +18,30 @@ const Container = styled.div`
   margin: 1rem auto;
   max-width: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  content: "";
+  display: table;
+  clear: both;
+`
+const LeftPara = styled.div`
+  float: left;
+  padding: 20px;
+  width: 50%;
+  margin: 5rem auto;
+  max-width: auto;
+`
+
+const RightPara = styled.div`
+  margin: 5rem auto;
+  float: left;
+  padding: 10px;
+  width: 50%;
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 `
@@ -71,6 +94,14 @@ const StyledFooterRight = styled.div`
 	  }
 `
 
+const Heading = styled.h1`
+  margin: 0;
+  margin-left: 1rem;
+  justify-content: center;
+  color: ${COLOR.PINK};
+  
+`
+
 const User = props => (
   <UserWrapper>
     <Avatar src={props.avatar} alt="" />
@@ -86,8 +117,17 @@ const User = props => (
 )
 
 export default ({data}) => (
-  <Layout str='About '>
+  <Layout str={'About '+ data.site.siteMetadata.title}>
     <Container>
+      <LeftPara>
+      <Heading>Journey of devOpsGirls</Heading><br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </LeftPara>
+    
+    <RightPara>
+    <Heading>Organisers of devOpsGirls</Heading><br/>
     <User
       username="Theresa Neate"
       avatar={theresa}
@@ -112,6 +152,7 @@ export default ({data}) => (
       twitter="https://twitter.com/setoide"
       excerpt="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
+    </RightPara>
   </Container>
   </Layout>
 )
