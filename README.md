@@ -1,6 +1,7 @@
 <h1 align="center">
   DevOpsGirls Website
 </h1>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdcaf3c2-bd78-43f5-86fd-9b14f8a6d6af/deploy-status)](https://app.netlify.com/sites/brave-panini-5292da/deploys)
 
 ## 🚀 Quick start
 
@@ -30,11 +31,6 @@
 
     Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
 `npm install react-icons gatsby-transformer-remark gatsby-plugin-react-helmet polished react-helmet gatsby-plugin-styled-components styled-components babel-plugin-styled-components prop-types
 --save`
 
