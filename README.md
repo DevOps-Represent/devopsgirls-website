@@ -1,7 +1,7 @@
-<h1 align="center">
-  DevOpsGirls Website
-</h1>
+# DevOpsGirls Website
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cdcaf3c2-bd78-43f5-86fd-9b14f8a6d6af/deploy-status)](https://app.netlify.com/sites/brave-panini-5292da/deploys)
+
+[![Live Demo](https://img.shields.io/badge/netlify-live_demo-1e9498.svg)](https://brave-panini-5292da.netlify.com/)
 
 ## 🚀 Quick start
 
