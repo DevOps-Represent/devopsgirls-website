@@ -15,11 +15,11 @@ padding: 1.5rem 1rem;
 display: flex;
 background-image: url(${img});
 background-attachment: fixed;
-background-repeat: no-repeat;
+background-repeat: auto;
 background-size: cover;
 justify-content: center;
 max-width: 1700px;
-height: 900px;
+height: 900px; 
 color: white;
 `
 const navigationItems = NAV_ITEMS.map(({ to, href, label }) => {
@@ -38,7 +38,7 @@ const navigationItems = NAV_ITEMS.map(({ to, href, label }) => {
     );
   });
 
-const Layout =  ({ children }) => (
+const Layout =  ({ str, children }) => (
   
     <StaticQuery
       query={graphql`
@@ -59,7 +59,7 @@ const Layout =  ({ children }) => (
           >
             <html lang="en" />
           </Helmet>
-          <Header title={data.site.siteMetadata.title} navigation={navigationItems} />
+          <Header title={str} navigation={navigationItems} />
           <Container>{children}</Container>
           <Footer/>
         </>

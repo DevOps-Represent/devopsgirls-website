@@ -98,4 +98,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 `npm install react-icons gatsby-transformer-remark gatsby-plugin-react-helmet polished react-helmet gatsby-plugin-styled-components styled-components babel-plugin-styled-components prop-types
 --save`
 
-`npm install --save typography typography-theme-irving`
+`npm install --save gatsby-plugin-typography typography typography-theme-irving react-typography`

@@ -5,11 +5,11 @@ import { COLOR } from '../constants';
 import { darken } from 'polished';
 
 const StyledFooter = styled.footer`
-	background-color: ${COLOR.PINK};
-	border-top: 0.2rem solid ${darken(0.2, COLOR.PINK)};
-	border-bottom: 0.2rem solid ${darken(0.2, COLOR.PINK)};
-	border-left: 0.2rem solid ${darken(0.2, COLOR.PINK)};
-	border-right: 0.2rem solid ${darken(0.2, COLOR.PINK)};
+	background-color: ${COLOR.BLACK};
+	border-top: 0.2rem solid  ${COLOR.PINK};
+	border-bottom: 0.2rem solid  ${COLOR.PINK};
+	border-left: 0.2rem solid  ${COLOR.PINK};
+	border-right: 0.2rem solid  ${COLOR.PINK};
 
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -32,12 +32,12 @@ const Navigation = styled.div`
 
   & > * {
     margin-left: 1rem;
-    color: ${COLOR.WHITE};
+    color: ${COLOR.PINK};
     cursor: pointer;
 
     &:focus,
     &:hover {
-      color: ${COLOR.BLACK};
+      color: ${COLOR.WHITE};
     }
   }
 
@@ -55,12 +55,12 @@ const StyledFooterRight = styled.div`
 
 	& > * {
 		margin-left: 1rem;
-		color: ${COLOR.WHITE};
+		color: ${COLOR.PINK};
 		cursor: pointer;
 	
 		&:focus,
 		&:hover {
-		  color: ${COLOR.BLACK};
+		  color: ${COLOR.WHITE};
 		}
 	  }
 	
