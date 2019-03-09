@@ -27,11 +27,15 @@ const Container = styled.div`
   clear: both;
 `
 const LeftPara = styled.div`
-  float: left;
-  padding: 20px;
-  width: 50%;
   margin: 5rem auto;
+  float: left;
+  padding: 10px;
+  width: 50%;
   max-width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `
 
 const RightPara = styled.div`

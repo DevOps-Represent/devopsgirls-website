@@ -1,10 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
+import styled from "styled-components"
+
+const Container = styled.body`
+height: 800px;
+`
 
 export default ({data}) => (
   <Layout str={'~/'+ data.site.siteMetadata.title}>
-    {/* <h1>Hi! Wolcome to {data.site.siteMetadata.title}</h1> */}
+    <Container><br/></Container>
   </Layout>
 )
 

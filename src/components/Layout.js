@@ -18,8 +18,8 @@ background-attachment: fixed;
 background-repeat: auto;
 background-size: cover;
 justify-content: center;
-max-width: 1700px;
-height: 900px; 
+max-width: auto;
+min-height: 100%;
 color: white;
 `
 const navigationItems = NAV_ITEMS.map(({ to, href, label }) => {
