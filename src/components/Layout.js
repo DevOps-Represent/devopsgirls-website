@@ -55,10 +55,9 @@ const Layout =  ({ str, children }) => (
         
           <Helmet
             title={data.site.siteMetadata.title}
-            // meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }]}
-            // meta ={[{name="viewport", content="width=device-width,height=device-height,initial-scale=1.0"}]}
+            meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }]}
           >
-            <html lang="en" meta content='width=device-width, initial-scale=1' name='viewport'/>
+            <html lang="en" />
           </Helmet>
           <Header title={str} navigation={navigationItems} />
           <Container>{children}</Container>
