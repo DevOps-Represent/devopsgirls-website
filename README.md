@@ -19,7 +19,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-hello-world-starter/
+    cd devopsgirls-website/
     gatsby develop
     ```
 

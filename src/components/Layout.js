@@ -14,11 +14,14 @@ padding: 1.5rem 1rem;
 
 display: flex;
 background-image: url(${img});
-background-attachment: fixed;
+background-attachment: flex;
 background-repeat: auto;
 background-size: cover;
 justify-content: center;
 max-width: auto;
+min-width: 100%;
+height: 100%;
+min-height: 100%;
 min-height: 100%;
 color: white;
 `
