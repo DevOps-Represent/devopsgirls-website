@@ -4,6 +4,9 @@
   "description": "A website for DevOpsGirls built with GatsbyJS",
   "version": "0.1.0",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
